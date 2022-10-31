@@ -61,6 +61,15 @@ insert into tbProdutos(codprod,descricao,valor,dataEntrada,horaEntrada,
 	quantidade) 
 	values(2,'Laranja',25.50,'2022-10-07','08:40:55',50.5);
 
+insert into tbProdutos(codprod,descricao,valor,dataEntrada,horaEntrada,
+	quantidade) 
+	values(3,'Laranja',25.50,'2022-10-07','08:40:55',50.5);
+
+insert into tbProdutos(codprod,descricao,valor,dataEntrada,horaEntrada,
+	quantidade) 
+	values(4,'Laranja',25.50,'2022-10-07','08:40:55',50.5);
+
+
 -- visualizando os registros cadastrados/inseridos
 
 select * from tbfuncionarios; 
@@ -86,3 +95,4 @@ select * from tbProdutos;
 -- delete from tbProdutos where codprod = 1;
 
 select * from tbProdutos;
+
